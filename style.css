@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+.menu-bar {
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+  background-color: rgb(6, 6, 94);
+}
+.logo {
+  height: 100%;
+  width: 10%;
+  float: left;
+}
+.logo img {
+  width: 59%;
+  height: 100%;
+  object-fit: fill;
+  margin-left: 25px;
+}
+.menu {
+  width: 54.5%;
+  height: 100%;
+  float: right;
+}
+.menu ul {
+  list-style-type: none;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  font-family: "Times New Roman";
+  font-size: xx-large;
+  font-weight: bold;
+  color: white;
+}
+.menu ul li a:hover {
+  color: black;
+  background-color: white;
+}
+.b1 {
+  width: 100%;
+  height: 88.2vh;
+  background: linear-gradient(rgb(3, 3, 97), rgb(7, 7, 214));
+}
+.b1-1 {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.b1-1-1 {
+  width: 45%;
+  height: 50%;
+  position: absolute;
+  top: 30%;
+  right: 20%;
+}
+.b1-1-1 h1 {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 50px;
+}
+.b1-1-1 h2 {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 30px;
+}
+.b1-1-1-1 {
+  height: 20px;
+  margin-top: 15px;
+}
+.b1-1-1-1-1 {
+  height: 100%;
+  width: 20px;
+  border-radius: 100%;
+  background-color: white;
+  float: left;
+}
+.b1-1-1-1-2 {
+  width: 85%;
+  background-color: white;
+  height: 6px;
+  float: left;
+  margin-top: 7px;
+}
+.b1-1-1-2 {
+  height: 50px;
+  margin-top: 15px;
+}
+.b1-1-1-2-1 {
+  width: 150px;
+  height: 100%;
+  border-radius: 30px;
+  background-color: rgb(9, 173, 9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 22.5%;
+}
+.b1-1-1-2-1 a {
+  font-family: "Times New Roman";
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.about {
+  height: 100vh;
+  background-color: rgb(7, 7, 214);
+}
+.photo {
+  width: 40%;
+  height: 100%;
+  float: left;
+  /* background-color: aqua; */
+}
+.text {
+  width: 60%;
+  float: left;
+  height: 100%;
+  padding: 10px;
+}
+.text a {
+  font-family: "Times New Roman";
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  font-weight: bold;
+  margin-left: 38%;
+}
+.text a:hover {
+  color: rgb(214, 14, 14);
+}
+.text p {
+  color: white;
+  font-family: "Times New Roman";
+  font-size: xx-large;
+  padding: 30px;
+  line-height: 50px;
+}
