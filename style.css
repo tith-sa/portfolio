@@ -2,6 +2,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Times New Roman";
+}
+
 .container {
   height: auto;
   overflow: hidden;
@@ -58,6 +63,23 @@
   height: 100%;
   position: relative;
 }
+.b1-2 {
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+  margin-left: 90px;
+  margin-top: 30px;
+}
+.b1-2-2 {
+  width: 50%;
+  height: 70%;
+}
+.b1-2-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
 .b1-1-1 {
   width: 45%;
   height: 50%;
@@ -82,7 +104,7 @@
 .b1-1-1-1-1 {
   height: 100%;
   width: 20px;
-  border-radius: 100%;
+  border-radius: 90%;
   background-color: white;
   float: left;
 }
@@ -115,30 +137,43 @@
   font-weight: bold;
 }
 .about {
-  height: 100vh;
+  height: 130vh;
+  width: 100%;
   background-color: rgb(7, 7, 214);
+}
+.box1 {
+  height: 55%;
+  width: 100%;
 }
 .photo {
   width: 40%;
-  height: 100%;
   float: left;
-  /* background-color: aqua; */
+  height: 100%;
 }
+/* .pho {
+  width: 50%;
+  height: 70%;
+}
+.pho img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+} */
 .text {
   width: 60%;
   float: left;
   height: 100%;
   padding: 10px;
+  height: 100%;
 }
-.text a {
+.text h1 {
   font-family: "Times New Roman";
   color: white;
-  text-decoration: none;
   font-size: 50px;
-  font-weight: bold;
-  margin-left: 38%;
+  margin-left: 35%;
 }
-.text a:hover {
+.text h1:hover {
   color: rgb(214, 14, 14);
 }
 .text p {
@@ -146,5 +181,241 @@
   font-family: "Times New Roman";
   font-size: xx-large;
   padding: 30px;
-  line-height: 50px;
+  line-height: 40px;
+}
+.edu {
+  height: 45%;
+  width: 100%;
+}
+.edu h1 {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ed-b {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1%;
+}
+.ed-b1 {
+  width: 20%;
+  height: 200px;
+  background-color: rgb(12, 12, 177);
+  margin-top: 70px;
+  position: relative;
+  box-shadow: 0 12px 12px 0 rgb(28, 27, 102), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+.year {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  top: -50px;
+  left: 30%;
+  background-color: rgb(34, 29, 88);
+  box-shadow: 0px 0px 5px 5px rgba(173, 216, 230, 0.397);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.year h1 {
+  font-size: 30px;
+  font-family: "Times New Roman";
+}
+.ed-b1 p {
+  font-size: 20px;
+  font-family: "Times New Roman";
+  color: white;
+  padding: 40px;
+  padding-top: 70px;
+}
+.skill {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(7, 7, 214);
+}
+.skill h1 {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skill h1:hover {
+  color: rgb(214, 14, 14);
+}
+.sk1 {
+  height: 237px;
+  width: 100%;
+  margin-top: 50px;
+}
+.sk2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1%;
+}
+.sk3 {
+  display: flex;
+  justify-content: center;
+  gap: 6%;
+}
+.sk1-1 {
+  height: 100%;
+  width: 237px;
+  background-color: rgb(8, 8, 158);
+  border-radius: 30px;
+  box-shadow: 0 12px 12px 0 rgb(28, 27, 102), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  position: relative;
+}
+.pho {
+  width: 126px;
+  height: 120px;
+  position: absolute;
+  top: 26%;
+  left: 22.5%;
+}
+.pho img {
+  height: 100%;
+  width: 100%;
+  object-fit: fil;
+}
+.project {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(7, 7, 214);
+}
+.project h1 {
+  font-family: "Times New Roman";
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+.pro {
+  width: 100%;
+  height: 90vh;
+  /* background-color: aquamarine; */
+  display: flex;
+  justify-content: center;
+  gap: 4.5%;
+}
+.pro1 {
+  width: 350px;
+  height: 450px;
+  margin-top: 55px;
+}
+.pro-1 {
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+}
+.pro-2 {
+  width: 100%;
+  height: 150px;
+  background-color: blueviolet;
+}
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(7, 7, 214);
+}
+.contact h1 {
+  color: white;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  justify-content: center;
+}
+.co {
+  width: 600px;
+  height: 500px;
+  margin-top: 30px;
+}
+.co form input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+}
+.co form textarea {
+  width: 100%;
+  height: 250px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  border: none;
+}
+.co1 {
+  width: 100%;
+  height: 60px;
+}
+.co1 form input {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(9, 173, 9);
+}
+footer {
+  width: 100%;
+  height: 27vh;
+  background-color: rgb(7, 7, 214);
+}
+.thank {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1%;
+}
+.bo1 {
+  width: 40%;
+  height: 10%;
+  background-color: white;
+  margin-top: 20px;
+}
+.bo2 {
+  width: 15%;
+  height: 100%;
+}
+.bo2 h1 {
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.add {
+  width: 100%;
+  height: 50px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 1%;
+}
+.loc {
+  width: 30%;
+  height: 100%;
+}
+.loc h2 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
