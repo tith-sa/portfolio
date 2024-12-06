@@ -17,6 +17,8 @@ body {
   overflow: hidden;
   width: 100%;
   background-color: rgb(6, 6, 94);
+  position: fixed;
+  z-index: 1;
 }
 .logo {
   height: 100%;
@@ -56,30 +58,16 @@ body {
 .b1 {
   width: 100%;
   height: 88.2vh;
+  display: flex;
   background: linear-gradient(rgb(3, 3, 97), rgb(7, 7, 214));
+  margin-top: 77px;
 }
 .b1-1 {
   width: 50%;
   height: 100%;
   position: relative;
 }
-.b1-2 {
-  width: 50%;
-  height: 100%;
-  padding: 30px;
-  margin-left: 90px;
-  margin-top: 30px;
-}
-.b1-2-2 {
-  width: 50%;
-  height: 70%;
-}
-.b1-2-2 img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 10px;
-}
+
 .b1-1-1 {
   width: 45%;
   height: 50%;
@@ -104,7 +92,7 @@ body {
 .b1-1-1-1-1 {
   height: 100%;
   width: 20px;
-  border-radius: 90%;
+  border-radius: 100%;
   background-color: white;
   float: left;
 }
@@ -136,6 +124,22 @@ body {
   color: black;
   font-weight: bold;
 }
+.b1-2 {
+  width: 50%;
+  height: 100%;
+}
+.b1-2-2 {
+  width: 80%;
+  height: 90%;
+  margin-top: 40px;
+}
+.b1-2-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 10px solid white;
+}
 .about {
   height: 130vh;
   width: 100%;
@@ -149,17 +153,16 @@ body {
   width: 40%;
   float: left;
   height: 100%;
+  padding-left: 100px;
+  padding-bottom: 50px;
 }
-/* .pho {
-  width: 50%;
-  height: 70%;
-}
-.pho img {
+.photo img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 10px;
-} */
+  border: 10px solid white;
+  border-radius: 30px;
+}
 .text {
   width: 60%;
   float: left;
@@ -313,15 +316,31 @@ body {
   height: 450px;
   margin-top: 55px;
 }
+.pro-1 :hover {
+  box-shadow: 0 12px 12px 0 rgb(28, 27, 102), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .pro-1 {
   width: 100%;
   height: 300px;
-  background-color: blue;
+}
+.pro-1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
 .pro-2 {
   width: 100%;
   height: 150px;
-  background-color: blueviolet;
+  background-color: rgb(12, 12, 146);
+}
+.pro-2:hover {
+  box-shadow: 0 12px 12px 0 rgb(28, 27, 102), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.pro-2 h1 {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .contact {
   width: 100%;
@@ -373,8 +392,8 @@ body {
 }
 footer {
   width: 100%;
-  height: 27vh;
-  background-color: rgb(7, 7, 214);
+  height: 40vh;
+  background-color: rgb(8, 8, 109);
 }
 .thank {
   width: 100%;
@@ -402,8 +421,8 @@ footer {
 }
 .add {
   width: 100%;
-  height: 50px;
-  margin-top: 30px;
+  height: 100px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
   gap: 1%;
@@ -418,4 +437,5 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
+  line-height: 30px;
 }
